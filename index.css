@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #282723;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+img {
+    border: 0 none;
+}
+a {
+    text-decoration: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.cl {
+    clear: both;
+}
+.w1000 {
+    margin: 0 auto;
+    width: 1000px;
+}
+.main .menu {
+    width: 380px;
+    background: #f6f6f6;
+}
+.main .menu .mod{
+    border-bottom: 3px solid #262521;
+    text-align: center;
+    padding: 40px 0;
+}
+.main .menu .mod:last-child{
+    border-bottom: 0 none;
+}
+.main .menu .mod p{
+    font-size: 24px;
+    line-height: 40px;
+}
+.main .menu .mod1 h1{
+    font-size: 48px;
+    letter-spacing:10px;
+    margin-top: 35px;
+}
+.main .menu .mod1 img{
+    width: 180px;
+    height: 180px;
+    border:2px solid #c0bbbf;
+    border-radius: 50%;
+    margin: 24px auto 60px auto;
+    display: block;
+}
+.main .menu .mod2 h2,.main .menu .mod3 h2{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.main .menu .mod2 .tbdiv{
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+.main .menu .mod2 img,.main .menu .mod3 img{
+    width:56px;
+    height:56px;
+    margin:16px auto;
+    display: block;
+}
+.main .menu .mod3 .progress_box{
+    width: 224px;
+    height: 14px;
+    margin: 10px auto 30px auto;
+    border:3px solid #262521;
+}
+.main .menu .mod3 .progress_my{
+    background:#262521;
+    height: 100%;
+}
+
+/*右侧部分*/
+.main .content {
+    width: 520px;
+    font-size: 18px;
+    background: #fffffd;
+    padding: 0 50px;
+}
+.main .content h3{
+    letter-spacing:5px;
+    font-size: 28px;
+    line-height: 46px;
+    margin: 24px auto;
+}
+.main .content h3 i{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-size: 46px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.main .content h3 .my{
+    background-image: url(img/my.png);
+}
+.main .content h3 .job{
+    background-image: url(img/job.png);
+}
+.main .content h3 .teach{
+    background-image: url(img/teach.png);
+}
+.main .content .intro{
+    margin-top: 140px;
+    border-bottom: 4px solid #3c3b37;
+}
+.main .content p{
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+.main .content .line{
+    position: relative;
+}
+.main .content .line:before{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 2px;
+    left:23px;
+    top:46px;
+    content: " ";
+    background: #3c3b37;
+}
+.main .content .line p{
+    margin-left: 66px;
+    position: relative;
+}
+.main .content .line p:before{
+    position: absolute;
+    display: block;
+    height: 14px;
+    width: 14px;
+    left:-51px;
+    top:6px;
+    content: " ";
+    border:2px solid #3c3b37;
+    border-radius: 50%;
+    background: #fffffd;
+}
